@@ -14,6 +14,7 @@ import org.eclipse.swt.events.ModifyEvent;
 import org.eclipse.swt.events.ModifyListener;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.events.SelectionListener;
+import org.eclipse.swt.graphics.Color;
 import org.eclipse.swt.layout.FillLayout;
 import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
@@ -194,7 +195,6 @@ public class RegexDevView {
 		System.out.println("Enter in SampleE4View postConstruct");
 
 		composite = new Composite(parent, SWT.FILL);
-		composite.setBackground(Display.getCurrent().getSystemColor(SWT.COLOR_WIDGET_BACKGROUND));
 		final GridLayout gl = new GridLayout(MAIN_LAYOUT_COLUMNS, false);
 		composite.setLayout(gl);
 
@@ -241,6 +241,8 @@ public class RegexDevView {
 		});
 
 		final Group pattFlagsGrp = new Group(composite, SWT.NONE);
+		pattFlagsGrp.setBackgroundMode(SWT.INHERIT_FORCE);
+
 		pattFlagsGrp.setText("Pattern flags");
 		final GridLayout pfGridLayout = new GridLayout(PATTERN_FLAGS_COLUMNS, false);
 		pfGridLayout.horizontalSpacing = PATTERN_FLAGS_MARGINS;

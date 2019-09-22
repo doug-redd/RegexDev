@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: RegexDev
-Bundle-SymbolicName: RegexDev;singleton:=true
+Bundle-Name: RegexDevPlugin
+Bundle-SymbolicName: RegexDevPlugin;singleton:=true
 Bundle-Version: 0.0.1
 Bundle-Vendor: reddops
 Require-Bundle: javax.inject,
@@ -13,5 +13,5 @@ Require-Bundle: javax.inject,
  org.eclipse.e4.core.di.annotations
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: javax.annotation;version="1.2.0"
-Automatic-Module-Name: RegexDev
+Automatic-Module-Name: RegexDevPlugin
 Export-Package: com.reddops.regexdev.parts
