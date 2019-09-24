@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_BxaXACerEeWxCPrV0pAZQQ">
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_EI7oACerEeWxCPrV0pAZQQ" featurename="descriptors" parentElementId="xpath:/">
-    <elements xsi:type="basic:PartDescriptor" xmi:id="_KMklcCerEeWxCPrV0pAZQQ" elementId="com.reddops.regexdev.RegexDevE4View" label="RegexDev" iconURI="platform:/plugin/RegexDevPlugin/icons/RegexDev.png" tooltip="" category="RegexDev" contributionURI="bundleclass://RegexDev/com.reddops.regexdev.parts.RegexDevView">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_KMklcCerEeWxCPrV0pAZQQ" elementId="com.reddops.regexdev.RegexDevE4View" label="RegexDev" iconURI="platform:/plugin/RegexDevPlugin/icons/RegexDev.png" tooltip="" category="General" contributionURI="bundleclass://RegexDev/com.reddops.regexdev.parts.RegexDevView">
       <tags>View</tags>
-      <tags>categoryTag:RegexDev</tags>
+      <tags>categoryTag:General</tags>
     </elements>
   </fragments>
 </fragment:ModelFragments>
